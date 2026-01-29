@@ -68,6 +68,12 @@ full = [
     'rendercv-fonts>=0.5.1', # Font files for RenderCV
     "packaging>=25.0",       # For version checking
 ]
+ai = [
+    'openai>=1.0.0',         # OpenAI API client for AI features
+    'anthropic>=0.20.0',     # Anthropic API client for AI features
+    'pypdf>=4.0.0',          # PDF parsing for resume import
+    'python-docx>=1.0.0',    # DOCX parsing for resume import
+]
 
 [project.urls]
 # URLs related to RenderCV. Listed under the "Project links" section on PyPI.
